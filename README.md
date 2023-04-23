@@ -6,7 +6,7 @@ Records with invalid data will be dumped to different table with column mentioni
 
 ## Working
 1.File should be uploaded in s3 bucket with fixed name.
-  Ex: today_sales.csv
+  Ex: today_sales.csv <br />
 2.This file is downloaded from s3 bucket and stored locally.
 3.Pandas is used to read data from today_sales which was downloaded and stored locally.
 4.While reading data in pandas dataframe the column name and datatype are specified.
